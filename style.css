@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;600;700&family=Monda&family=Poppins:wght@300;500&family=Staatliches&display=swap');
 
-html {}
+html {
+    margin: 0 auto;
+}
 
 body {
     height: 100vh;
