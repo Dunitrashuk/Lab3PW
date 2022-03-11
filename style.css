@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;600;700&family=Monda&family=Poppins:wght@300;500&family=Staatliches&display=swap');
+
+html {}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #cccccc;
+}
+
+h3 {
+    margin: 0 0 .7rem 0;
+    font-family: "Poppins", serif;
+    color: #3b3b3b;
+    font-weight: normal;
+}
+
+#mainContainer {
+    padding: .8rem 0 .8rem 0;
+    height: 70vh;
+    min-width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #cccccc;
+    box-shadow: inset 10px 10px 20px #bababa,
+    inset -10px -10px 20px #dedede;
+}
+
+#inputContainer {
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+form {
+    width: 90%;
+}
+
+select {
+
+}
+
+label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#input {
+    border-style: none;
+    padding: .4rem .6rem .4rem .6rem;
+    margin: 0;
+    width: 70%;
+    border-radius: 5px;
+    font-family: Poppins, serif;
+    background: #cccccc;
+    box-shadow: inset 2px 2px 5px #bababa,
+    inset -2px -2px 5px #dedede;
+}
+
+#submitButton {
+    padding: .3rem .6rem .3rem .6rem;
+    border-radius: 5px;
+    background: #c2c1c1;
+    border-style: none;
+    font-family: Poppins, serif;
+    transition: .2s ease-in-out;
+}
+
+#submitButton:hover {
+    transition: .2s ease-in-out;
+    background: #a1a1a1;
+}
+
+#cardsContainer {
+
+}
+
+#not-todo-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.unchecked {
+    width: 90%;
+    margin: .2rem 0 .2rem 0;
+    padding: .2rem .4rem .2rem .4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #3b3b3b;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: .4;
+}
+
+.checkmark {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    position: absolute;
+    height: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.deleteTransition {
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select {
+    margin-top: 20px;
+    font-family: Poppins, serif;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #c2c1c1;
+    cursor: pointer;
+}
+
+#imageLabel {
+    width: auto;
+    margin-top: 20px;
+    font-family: Poppins, serif;
+    font-weight: normal;
+    font-size: .8rem;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #c2c1c1;
+    cursor: pointer;
+}
+
+#imgInput {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#footer {
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    font-size: .6rem;
+    color: #3b3b3b;
+    position: absolute;
+    bottom: 10px;
+}
+
+.deleteCard {
+    display: none;
+}
